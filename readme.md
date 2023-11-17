@@ -24,7 +24,8 @@ Form Inspector - это простой сервис, который приним
 3. Внесите в файл `db/test_data.json` ваши тестовые данные шаблонов.
 4. Запустите Docker Compose:
     ```bash
-   docker-compose up -d`
+   docker-compose up -d
+    ```
 Эта команда запустит FastAPI-сервер и базу данных TinyDB.
 5. Откройте браузер и перейдите по адресу http://localhost:5000/docs для интерактивной документации API.
 
